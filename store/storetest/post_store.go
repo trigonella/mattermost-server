@@ -1689,6 +1689,11 @@ func testPostCountsByDay(t *testing.T, ss store.Store) {
 	r2, err := ss.Post().AnalyticsPostCount(t1.Id, false, false)
 	require.Nil(t, err)
 	assert.Equal(t, int64(6), r2)
+
+	// total across teams
+	r3, err := ss.Post().AnalyticsPostCount("", false, false)
+	require.Nil(t, err)
+	assert.GreaterOrEqual(t, r3, int64(6))
 }
 
 func testPostStoreGetFlaggedPostsForTeam(t *testing.T, ss store.Store, s SqlSupplier) {
