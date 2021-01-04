@@ -9,10 +9,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/store"
-	"github.com/mattermost/mattermost-server/v5/store/storetest"
-	"github.com/mattermost/mattermost-server/v5/store/storetest/mocks"
+	"github.com/tetrafolium/mattermost-server/model"
+	"github.com/tetrafolium/mattermost-server/store"
+	"github.com/tetrafolium/mattermost-server/store/storetest"
+	"github.com/tetrafolium/mattermost-server/store/storetest/mocks"
 )
 
 func TestUserStore(t *testing.T) {

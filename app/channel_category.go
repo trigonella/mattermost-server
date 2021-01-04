@@ -8,10 +8,10 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/mattermost/mattermost-server/v5/store"
+	"github.com/tetrafolium/mattermost-server/store"
 
-	"github.com/mattermost/mattermost-server/v5/mlog"
-	"github.com/mattermost/mattermost-server/v5/model"
+	"github.com/tetrafolium/mattermost-server/mlog"
+	"github.com/tetrafolium/mattermost-server/model"
 )
 
 func (a *App) createInitialSidebarCategories(userId, teamId string) *model.AppError {

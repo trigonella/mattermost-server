@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/utils/fileutils"
+	"github.com/tetrafolium/mattermost-server/model"
+	"github.com/tetrafolium/mattermost-server/utils/fileutils"
 
 	"github.com/stretchr/testify/require"
 )

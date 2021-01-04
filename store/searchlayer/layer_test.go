@@ -8,12 +8,12 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/services/searchengine"
-	"github.com/mattermost/mattermost-server/v5/store/searchlayer"
-	"github.com/mattermost/mattermost-server/v5/store/sqlstore"
-	"github.com/mattermost/mattermost-server/v5/store/storetest"
-	"github.com/mattermost/mattermost-server/v5/testlib"
+	"github.com/tetrafolium/mattermost-server/model"
+	"github.com/tetrafolium/mattermost-server/services/searchengine"
+	"github.com/tetrafolium/mattermost-server/store/searchlayer"
+	"github.com/tetrafolium/mattermost-server/store/sqlstore"
+	"github.com/tetrafolium/mattermost-server/store/storetest"
+	"github.com/tetrafolium/mattermost-server/testlib"
 )
 
 // Test to verify race condition on UpdateConfig. The test must run with -race flag in order to verify

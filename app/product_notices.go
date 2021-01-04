@@ -11,11 +11,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mattermost/mattermost-server/v5/config"
-	"github.com/mattermost/mattermost-server/v5/mlog"
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/store"
-	"github.com/mattermost/mattermost-server/v5/utils"
+	"github.com/tetrafolium/mattermost-server/config"
+	"github.com/tetrafolium/mattermost-server/mlog"
+	"github.com/tetrafolium/mattermost-server/model"
+	"github.com/tetrafolium/mattermost-server/store"
+	"github.com/tetrafolium/mattermost-server/utils"
 
 	"github.com/Masterminds/semver/v3"
 	"github.com/pkg/errors"

@@ -6,7 +6,7 @@ package sqlstore
 import (
 	"testing"
 
-	"github.com/mattermost/mattermost-server/v5/store/storetest"
+	"github.com/tetrafolium/mattermost-server/store/storetest"
 )
 
 func TestUploadSessionStore(t *testing.T) {

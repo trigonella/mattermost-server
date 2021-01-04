@@ -13,8 +13,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/services/httpservice"
+	"github.com/tetrafolium/mattermost-server/model"
+	"github.com/tetrafolium/mattermost-server/services/httpservice"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

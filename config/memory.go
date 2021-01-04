@@ -8,7 +8,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/mattermost/mattermost-server/v5/model"
+	"github.com/tetrafolium/mattermost-server/model"
 )
 
 // MemoryStore implements the Store interface. It is meant primarily for testing.

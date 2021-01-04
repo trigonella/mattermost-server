@@ -10,10 +10,10 @@ import (
 	"strings"
 
 	"github.com/NYTimes/gziphandler"
-	"github.com/mattermost/mattermost-server/v5/mlog"
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/utils"
-	"github.com/mattermost/mattermost-server/v5/utils/fileutils"
+	"github.com/tetrafolium/mattermost-server/mlog"
+	"github.com/tetrafolium/mattermost-server/model"
+	"github.com/tetrafolium/mattermost-server/utils"
+	"github.com/tetrafolium/mattermost-server/utils/fileutils"
 )
 
 var robotsTxt = []byte("User-agent: *\nDisallow: /\n")

@@ -4,10 +4,10 @@
 package scheduler
 
 import (
-	"github.com/mattermost/mattermost-server/v5/app"
-	"github.com/mattermost/mattermost-server/v5/jobs"
-	"github.com/mattermost/mattermost-server/v5/mlog"
-	"github.com/mattermost/mattermost-server/v5/model"
+	"github.com/tetrafolium/mattermost-server/app"
+	"github.com/tetrafolium/mattermost-server/jobs"
+	"github.com/tetrafolium/mattermost-server/mlog"
+	"github.com/tetrafolium/mattermost-server/model"
 )
 
 type Worker struct {

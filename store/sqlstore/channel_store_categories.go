@@ -7,8 +7,8 @@ import (
 	"fmt"
 
 	"github.com/mattermost/gorp"
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/store"
+	"github.com/tetrafolium/mattermost-server/model"
+	"github.com/tetrafolium/mattermost-server/store"
 
 	sq "github.com/Masterminds/squirrel"
 	"github.com/pkg/errors"

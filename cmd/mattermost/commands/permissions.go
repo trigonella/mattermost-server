@@ -10,8 +10,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/mattermost/mattermost-server/v5/audit"
-	"github.com/mattermost/mattermost-server/v5/utils"
+	"github.com/tetrafolium/mattermost-server/audit"
+	"github.com/tetrafolium/mattermost-server/utils"
 )
 
 var PermissionsCmd = &cobra.Command{

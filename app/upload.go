@@ -12,10 +12,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mattermost/mattermost-server/v5/mlog"
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/plugin"
-	"github.com/mattermost/mattermost-server/v5/store"
+	"github.com/tetrafolium/mattermost-server/mlog"
+	"github.com/tetrafolium/mattermost-server/model"
+	"github.com/tetrafolium/mattermost-server/plugin"
+	"github.com/tetrafolium/mattermost-server/store"
 )
 
 const minFirstPartSize = 5 * 1024 * 1024 // 5MB

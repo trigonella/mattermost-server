@@ -11,11 +11,11 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/mattermost/mattermost-server/v5/mlog"
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/store"
-	"github.com/mattermost/mattermost-server/v5/utils"
-	"github.com/mattermost/mattermost-server/v5/utils/markdown"
+	"github.com/tetrafolium/mattermost-server/mlog"
+	"github.com/tetrafolium/mattermost-server/model"
+	"github.com/tetrafolium/mattermost-server/store"
+	"github.com/tetrafolium/mattermost-server/utils"
+	"github.com/tetrafolium/mattermost-server/utils/markdown"
 	"github.com/pkg/errors"
 )
 
