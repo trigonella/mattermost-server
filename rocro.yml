@@ -4,6 +4,9 @@ inspecode:
   global:
     ignore:
       - "vendor/"
+      - "**/*_test.go"
+    runtime:
+      go: 1.14          # from "./go.mod"
 
   experimental:
 
