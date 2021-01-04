@@ -4,9 +4,8 @@ inspecode:
   global:
     ignore:
       - "vendor/"
-      - "**/*_test.go"
     runtime:
-      go: 1.14          # from "./go.mod"
+      # go: 1.14          # from "./go.mod"
 
   experimental:
 
@@ -15,6 +14,8 @@ inspecode:
   tools:
 
     cpd:
+      ignore:
+        - "**/*_test.go"
       options: [--skip-lexical-errors]
       thresholds: {num-issues: 999}
 
@@ -60,6 +61,8 @@ inspecode:
       thresholds: {num-issues: 999}
 
     jscpd:
+      ignore:
+        - "**/*_test.go"
       thresholds: {num-issues: 999}
   
     misspell:
@@ -69,6 +72,9 @@ inspecode:
     staticcheck:
       thresholds: {num-issues: 999}
 
+    ## stop unused temporary ... too long running time
     unused:
+      ignore:
+        - "**/*_test.go"
       options: [--single-occurrence, --all-likelihoods]
       thresholds: {num-issues: 999}
