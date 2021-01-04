@@ -2,6 +2,8 @@
 inspecode:
 
   global:
+    ignore:
+      - "vendor/"
 
   experimental:
 
@@ -38,7 +40,12 @@ inspecode:
 
     golint:
       auto-fix: true
-      thresholds: {num-issues: 999}
+      thresholds: {num-issues: 999}   # too many issues detected: 15664 > 1000
+      ##  7353  exported *** should have comment or be unexported
+      ##  6541  *** should be ***
+      ##  1213  don't use ALL_CAPS in Go names; use CamelCase
+      ##   451  don't use underscores in Go names; *** should be ***
+      ##   106  (others)
 
     gosec:
       thresholds: {num-issues: 999}
