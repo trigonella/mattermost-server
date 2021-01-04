@@ -5,7 +5,7 @@ inspecode:
     ignore:
       - "vendor/"
     runtime:
-      # go: 1.14          # from "./go.mod"
+      go: 1.14          # from "./go.mod" ... using "hash/maphash", etc.
 
   experimental:
 
