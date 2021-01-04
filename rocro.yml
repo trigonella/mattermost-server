@@ -13,68 +13,24 @@ inspecode:
 
   tools:
 
-    cpd:
-      ignore:
-        - "**/*_test.go"
-      options: [--skip-lexical-errors]
-      thresholds: {num-issues: 999}
-
-    errcheck:
-      thresholds: {num-issues: 999}
-
-    # fortify:
-    #   thresholds: {num-issues: 999}
-
-    fossology:
-      thresholds: {num-issues: 999}
-
-    go-test:
-      thresholds: {num-issues: 999}
-
-    go-vet:
-      thresholds: {num-issues: 999}
-
-    gofmt:
-      auto-fix: true
-      thresholds: {num-issues: 999}
-
-    goimports:
-      auto-fix: true
-      thresholds: {num-issues: 999}
-
-    golint:
-      auto-fix: true
-      thresholds: {num-issues: 999}   # too many issues detected: 15664 > 1000
-      ##  7353  exported *** should have comment or be unexported
-      ##  6541  *** should be ***
-      ##  1213  don't use ALL_CAPS in Go names; use CamelCase
-      ##   451  don't use underscores in Go names; *** should be ***
-      ##   106  (others)
-
-    gosec:
-      thresholds: {num-issues: 999}
-  
-    grep:
-      thresholds: {num-issues: 999}
-
-    ineffassign:
-      thresholds: {num-issues: 999}
-
-    jscpd:
-      ignore:
-        - "**/*_test.go"
-      thresholds: {num-issues: 999}
-  
-    misspell:
-      auto-fix: true
-      thresholds: {num-issues: 999}
-
-    staticcheck:
-      thresholds: {num-issues: 999}
-
-    ## stop unused temporary ... too long running time
-    # unused:
-    #   ignore:
+    unused:
+    # - ignore:
     #     - "**/*_test.go"
+    #   # machine: {cpu: 0.5}   # (default)
     #   options: [--single-occurrence, --all-likelihoods]
-    #   thresholds: {num-issues: 999}
+    #   thresholds: {num-issues: 999}   # Timed-out
+    - ignore:
+        - "**/*_test.go"
+      machine: {cpu: 1.0}
+      options: [--single-occurrence, --all-likelihoods]
+      thresholds: {num-issues: 999}
+    - ignore:
+        - "**/*_test.go"
+      machine: {cpu: 1.5}
+      options: [--single-occurrence, --all-likelihoods]
+      thresholds: {num-issues: 999}
+    - ignore:
+        - "**/*_test.go"
+      machine: {cpu: 2.0}
+      options: [--single-occurrence, --all-likelihoods]
+      thresholds: {num-issues: 999}
