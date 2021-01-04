@@ -9,10 +9,10 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/mattermost/mattermost-server/v5/app"
-	"github.com/mattermost/mattermost-server/v5/audit"
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/web"
+	"github.com/tetrafolium/mattermost-server/v5/app"
+	"github.com/tetrafolium/mattermost-server/v5/audit"
+	"github.com/tetrafolium/mattermost-server/v5/model"
+	"github.com/tetrafolium/mattermost-server/v5/web"
 )
 
 const (

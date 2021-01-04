@@ -6,10 +6,10 @@ package migrations
 import (
 	"time"
 
-	"github.com/mattermost/mattermost-server/v5/app"
-	"github.com/mattermost/mattermost-server/v5/mlog"
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/store"
+	"github.com/tetrafolium/mattermost-server/v5/app"
+	"github.com/tetrafolium/mattermost-server/v5/mlog"
+	"github.com/tetrafolium/mattermost-server/v5/model"
+	"github.com/tetrafolium/mattermost-server/v5/store"
 )
 
 const (

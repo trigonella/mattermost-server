@@ -12,11 +12,11 @@ import (
 	"time"
 
 	"github.com/mattermost/gorp"
-	"github.com/mattermost/mattermost-server/v5/einterfaces"
-	"github.com/mattermost/mattermost-server/v5/mlog"
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/services/cache"
-	"github.com/mattermost/mattermost-server/v5/store"
+	"github.com/tetrafolium/mattermost-server/v5/einterfaces"
+	"github.com/tetrafolium/mattermost-server/v5/mlog"
+	"github.com/tetrafolium/mattermost-server/v5/model"
+	"github.com/tetrafolium/mattermost-server/v5/services/cache"
+	"github.com/tetrafolium/mattermost-server/v5/store"
 
 	sq "github.com/Masterminds/squirrel"
 	"github.com/pkg/errors"

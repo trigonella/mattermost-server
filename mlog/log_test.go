@@ -8,7 +8,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/mattermost/mattermost-server/v5/mlog"
+	"github.com/tetrafolium/mattermost-server/v5/mlog"
 	"github.com/stretchr/testify/require"
 )
 

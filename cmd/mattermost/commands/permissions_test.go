@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/mattermost/mattermost-server/v5/utils"
+	"github.com/tetrafolium/mattermost-server/v5/utils"
 )
 
 func TestPermissionsExport_rejectsUnlicensed(t *testing.T) {

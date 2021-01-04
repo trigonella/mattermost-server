@@ -10,9 +10,9 @@ import (
 	"context"
 	timemodule "time"
 
-	"github.com/mattermost/mattermost-server/v5/einterfaces"
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/store"
+	"github.com/tetrafolium/mattermost-server/v5/einterfaces"
+	"github.com/tetrafolium/mattermost-server/v5/model"
+	"github.com/tetrafolium/mattermost-server/v5/store"
 )
 
 type TimerLayer struct {

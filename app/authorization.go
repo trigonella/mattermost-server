@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/mattermost/mattermost-server/v5/mlog"
-	"github.com/mattermost/mattermost-server/v5/model"
+	"github.com/tetrafolium/mattermost-server/v5/mlog"
+	"github.com/tetrafolium/mattermost-server/v5/model"
 )
 
 func (a *App) MakePermissionError(permissions []*model.Permission) *model.AppError {
