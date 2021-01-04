@@ -6,7 +6,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/mattermost/mattermost-server/v5/plugin"
+	"github.com/tetrafolium/mattermost-server/plugin"
 )
 
 type Plugin struct {

@@ -7,9 +7,9 @@ import (
 	"database/sql"
 	"time"
 
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/store"
-	"github.com/mattermost/mattermost-server/v5/utils"
+	"github.com/tetrafolium/mattermost-server/model"
+	"github.com/tetrafolium/mattermost-server/store"
+	"github.com/tetrafolium/mattermost-server/utils"
 	"github.com/pkg/errors"
 
 	sq "github.com/Masterminds/squirrel"

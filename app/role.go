@@ -9,9 +9,9 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/store"
-	"github.com/mattermost/mattermost-server/v5/utils"
+	"github.com/tetrafolium/mattermost-server/model"
+	"github.com/tetrafolium/mattermost-server/store"
+	"github.com/tetrafolium/mattermost-server/utils"
 )
 
 func (a *App) GetRole(id string) (*model.Role, *model.AppError) {

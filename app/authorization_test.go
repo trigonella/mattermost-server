@@ -5,14 +5,14 @@ package app
 
 import (
 	"fmt"
-	"github.com/mattermost/mattermost-server/v5/plugin/plugintest/mock"
-	"github.com/mattermost/mattermost-server/v5/store/storetest/mocks"
+	"github.com/tetrafolium/mattermost-server/plugin/plugintest/mock"
+	"github.com/tetrafolium/mattermost-server/store/storetest/mocks"
 	"testing"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mattermost/mattermost-server/v5/model"
+	"github.com/tetrafolium/mattermost-server/model"
 )
 
 func TestCheckIfRolesGrantPermission(t *testing.T) {

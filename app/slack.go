@@ -11,9 +11,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/services/slackimport"
-	"github.com/mattermost/mattermost-server/v5/store"
+	"github.com/tetrafolium/mattermost-server/model"
+	"github.com/tetrafolium/mattermost-server/services/slackimport"
+	"github.com/tetrafolium/mattermost-server/store"
 )
 
 func (a *App) SlackImport(fileData multipart.File, fileSize int64, teamID string) (*model.AppError, *bytes.Buffer) {

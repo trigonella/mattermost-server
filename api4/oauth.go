@@ -6,8 +6,8 @@ package api4
 import (
 	"net/http"
 
-	"github.com/mattermost/mattermost-server/v5/audit"
-	"github.com/mattermost/mattermost-server/v5/model"
+	"github.com/tetrafolium/mattermost-server/audit"
+	"github.com/tetrafolium/mattermost-server/model"
 )
 
 func (api *API) InitOAuth() {

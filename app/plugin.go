@@ -16,12 +16,12 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/mattermost/mattermost-server/v5/mlog"
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/plugin"
-	"github.com/mattermost/mattermost-server/v5/services/filesstore"
-	"github.com/mattermost/mattermost-server/v5/services/marketplace"
-	"github.com/mattermost/mattermost-server/v5/utils/fileutils"
+	"github.com/tetrafolium/mattermost-server/mlog"
+	"github.com/tetrafolium/mattermost-server/model"
+	"github.com/tetrafolium/mattermost-server/plugin"
+	"github.com/tetrafolium/mattermost-server/services/filesstore"
+	"github.com/tetrafolium/mattermost-server/services/marketplace"
+	"github.com/tetrafolium/mattermost-server/utils/fileutils"
 
 	"github.com/blang/semver"
 	svg "github.com/h2non/go-is-svg"

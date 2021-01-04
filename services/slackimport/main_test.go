@@ -8,7 +8,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/mattermost/mattermost-server/v5/mlog"
+	"github.com/tetrafolium/mattermost-server/mlog"
 )
 
 func TestMain(m *testing.M) {
