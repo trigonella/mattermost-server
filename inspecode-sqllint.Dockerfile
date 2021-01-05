@@ -32,6 +32,7 @@ SHELL ["/bin/ash", "-eo", "pipefail", "-c"]
 RUN ( find . -type f -name '*.sql' -print0 | xargs -0 -n 1 sql-lint --format simple ) \
         > "${OUTDIR}/sql-lint.issues" || true
 RUN ls -la "${OUTDIR}"
+RUN ( echo "++ ${OUTDIR}/sql-lint.issues >>"; cat -n "${OUTDIR}/sql-lint.issues"; echo "<< ${OUTDIR}/sql-lint.issues ++" )
 
 ### Convert sql-lint issues to SARIF ...
 RUN go run "${TOOLDIR}/sqllint/cmd/main.go" "${REPOPATH}" \
