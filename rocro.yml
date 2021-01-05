@@ -8,6 +8,8 @@ inspecode:
       go: 1.14          # from "./go.mod" ... using "hash/maphash", etc.
 
   experimental:
+    env:
+      GO111MODULE: on
 
   tasks:
 
