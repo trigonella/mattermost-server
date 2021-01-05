@@ -17,30 +17,30 @@ inspecode:
       ignore:
         - "**/*_test.go"
       options: [--skip-lexical-errors]
-      thresholds: {num-issues: 999}
+      thresholds: {num-issues: 505}
 
     errcheck:
-      thresholds: {num-issues: 999}
+      thresholds: {num-issues: 999}   # (found no input files) ... codelift#2161
 
     # fortify:
     #   thresholds: {num-issues: 999}
 
     fossology:
-      thresholds: {num-issues: 999}
+      thresholds: {num-issues: 9}
 
     go-test:
-      thresholds: {num-issues: 999}
+      thresholds: {num-issues: 999}   # (found no input files) ... codelift#2161
 
     go-vet:
-      thresholds: {num-issues: 999}
+      thresholds: {num-issues: 999}   # (found no input files) ... codelift#2161
 
     gofmt:
       auto-fix: true
-      thresholds: {num-issues: 999}
+      thresholds: {num-issues: 225}
 
     goimports:
       auto-fix: true
-      thresholds: {num-issues: 999}
+      thresholds: {num-issues: 234}
 
     golint:
       auto-fix: true
@@ -52,29 +52,29 @@ inspecode:
       ##   106  (others)
 
     gosec:
-      thresholds: {num-issues: 999}
+      thresholds: {num-issues: 999}   # (found no input files) ... codelift#2161
 
     grep:
-      thresholds: {num-issues: 999}
+      thresholds: {num-issues: 22}
 
     ineffassign:
-      thresholds: {num-issues: 999}
+      thresholds: {num-issues: 0}
 
     jscpd:
       ignore:
         - "**/*_test.go"
-      thresholds: {num-issues: 999}
+      thresholds: {num-issues: 560}
 
     misspell:
       auto-fix: true
-      thresholds: {num-issues: 999}
+      thresholds: {num-issues: 4}
 
     staticcheck:
-      thresholds: {num-issues: 999}
+      thresholds: {num-issues: 999}   # (found no input files) ... codelift#2161
 
-    ## stop unused temporary ... too long running time
-    # unused:
-    #   ignore:
-    #     - "**/*_test.go"
-    #   options: [--single-occurrence, --all-likelihoods]
-    #   thresholds: {num-issues: 999}
+    unused:
+      ignore:
+        - "**/*_test.go"
+      machine: {cpu: 1.5}   # avoid Timed-Out
+      options: [--single-occurrence, --all-likelihoods]
+      thresholds: {num-issues: 112}
