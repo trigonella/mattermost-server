@@ -1,11 +1,9 @@
-FROM golang:1-alpine AS hadolint-task
-
-### Print version of git and golang ...
-RUN echo "+++ $(git version)" && \
-    echo "+++ $(go version)"
+FROM alpine:3.12 AS hadolint-task
 
 ### Install tools ...
-RUN apk add --update --no-cache curl git
+RUN apk add --update --no-cache curl git go
+RUN echo "+++ $(git version)" && \
+    echo "+++ $(go version)"
 
 ### Install hadolint ...
 ENV HADOLINT_VERSION="v1.18.0"
