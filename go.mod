@@ -105,6 +105,7 @@ require (
 	github.com/stretchr/objx v0.3.0 // indirect
 	github.com/stretchr/testify v1.6.1
 	github.com/tecbot/gorocksdb v0.0.0-20191217155057-f0fad39f321c // indirect
+	github.com/tetrafolium/inspecode-tasks v0.0.1 // indirect
 	github.com/throttled/throttled v2.2.5+incompatible
 	github.com/tinylib/msgp v1.1.2
 	github.com/tylerb/graceful v1.2.15
