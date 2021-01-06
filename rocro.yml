@@ -13,6 +13,75 @@ inspecode:
 
   tasks:
 
+    - name: dockerfilelint
+      type: docker-build
+      dockerfile: "inspecode-dockerfilelint.Dockerfile"
+      options:
+        --build-arg:
+          OUTDIR=/.reports
+      artifacts:
+        - from: dockerfilelint-task
+          path: "/.reports/dockerfilelint.json"
+        - from: dockerfilelint-task
+          path: "/.reports/dockerfilelint.sarif"
+      reports:
+        - from: dockerfilelint-task
+          path: "/.reports/dockerfilelint.sarif"
+      thresholds: {num-issues: 13}
+
+    - name: hadolint
+      type: docker-build
+      dockerfile: "inspecode-hadolint.Dockerfile"
+      options:
+        --build-arg:
+          OUTDIR=/.reports
+      artifacts:
+        - from: hadolint-task
+          path: "/.reports/hadolint.json"
+        - from: hadolint-task
+          path: "/.reports/hadolint.sarif"
+      reports:
+        - from: hadolint-task
+          path: "/.reports/hadolint.sarif"
+      thresholds: {num-issues: 34}
+
+    #### sqllint が未サポートの拡張機能を使っていて処理がエラー中断される
+    # - name: sqllint
+    #   type: docker-build
+    #   dockerfile: "inspecode-sqllint.Dockerfile"
+    #   options:
+    #     --build-arg:
+    #       OUTDIR=/.reports
+    #   artifacts:
+    #     - from: sqllint-task
+    #       path: "/.reports/sqllint.issues"
+    #     - from: sqllint-task
+    #       path: "/.reports/sqllint.sarif"
+    #   reports:
+    #     - from: sqllint-task
+    #       path: "/.reports/sqllint.sarif"
+    #       format:
+    #         type: SARIF
+    #   thresholds: {num-issues: 999}
+
+    - name: yamllint
+      type: docker-build
+      dockerfile: "inspecode-yamllint.Dockerfile"
+      options:
+        --build-arg:
+          OUTDIR=/.reports
+      artifacts:
+        - from: yamllint-task
+          path: "/.reports/yamllint.issues"
+        - from: yamllint-task
+          path: "/.reports/yamllint.sarif"
+      reports:
+        - from: yamllint-task
+          path: "/.reports/yamllint.sarif"
+          format:
+            type: SARIF
+      thresholds: {num-issues: 515}
+
   tools:
 
     cpd:
