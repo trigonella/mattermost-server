@@ -1,5 +1,9 @@
 FROM golang:1-alpine AS hadolint-task
 
+### Print version of git and golang ...
+RUN echo "+++ $(git version)" && \
+    echo "+++ $(go version)"
+
 ### Install tools ...
 RUN apk add --update --no-cache curl git
 
