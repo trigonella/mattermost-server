@@ -36,7 +36,6 @@ SHELL ["/bin/ash", "-eo", "pipefail", "-c"]
 RUN ( find . -type f -name '*Dockerfile*' -print0 | xargs -0 hadolint --format json ) \
         > "${OUTDIR}/hadolint.json" || true
 RUN ls -la "${OUTDIR}"
-RUN ( echo "++ ${OUTDIR}/hadolint.json >>"; cat -n "${OUTDIR}/hadolint.json"; echo "<< ${OUTDIR}/hadolint.json ++" )
 
 ### Convert hadolint JSON to SARIF ...
 RUN go run "${TOOLDIR}/hadolint/cmd/main.go" "${REPOPATH}" \
