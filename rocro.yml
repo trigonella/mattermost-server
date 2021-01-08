@@ -13,6 +13,14 @@ inspecode:
 
   tasks:
 
+    - name: dockerfilelint
+      type: docker-build
+      dockerfile: "inspecode-dockerfilelint.Dockerfile"
+      options: {--build-arg: OUTDIR=/.reports}
+      reports:
+        - {from: dockerfilelint-task, path: "/.reports/dockerfilelint.sarif"}
+      thresholds: {num-issues: 999}
+
     # - name: hadolint
     #   type: docker-build
     #   dockerfile: "inspecode-hadolint.Dockerfile"
