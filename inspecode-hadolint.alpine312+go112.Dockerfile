@@ -1,8 +1,7 @@
 FROM alpine:3.12 AS hadolint-task
 
 ### Install tools ...
-RUN apk add --update --no-cache curl git
-RUN apk add --update --no-cache go="1.12.17-r0"
+RUN apk add --update --no-cache curl git go="1.12.17-r0"
 RUN echo "+++ $(git version)" && \
     echo "+++ $(go version)"
 
