@@ -29,22 +29,6 @@ inspecode:
     #       path: "/.reports/hadolint.sarif"
     #   thresholds: {num-issues: 34}
 
-    - name: hadolint_go114
-      type: docker-build
-      dockerfile: "inspecode-hadolint.golang114.Dockerfile"
-      options: {--build-arg: OUTDIR=/.reports}
-      reports:
-        - {from: hadolint-task, path: "/.reports/hadolint.sarif"}
-      thresholds: {num-issues: 34}
-
-    - name: hadolint_go115
-      type: docker-build
-      dockerfile: "inspecode-hadolint.golang115.Dockerfile"
-      options: {--build-arg: OUTDIR=/.reports}
-      reports:
-        - {from: hadolint-task, path: "/.reports/hadolint.sarif"}
-      thresholds: {num-issues: 34}
-
     - name: hadolint_alp_go112
       type: docker-build
       dockerfile: "inspecode-hadolint.alpine312+go112.Dockerfile"
@@ -61,18 +45,18 @@ inspecode:
         - {from: hadolint-task, path: "/.reports/hadolint.sarif"}
       thresholds: {num-issues: 34}
 
-    # - name: hadolint_alp_go114
-    #   type: docker-build
-    #   dockerfile: "inspecode-hadolint.alpine312+go114.Dockerfile"
-    #   options: {--build-arg: OUTDIR=/.reports}
-    #   reports:
-    #     - {from: hadolint-task, path: "/.reports/hadolint.sarif"}
-    #   thresholds: {num-issues: 34}
+    - name: hadolint_go114
+      type: docker-build
+      dockerfile: "inspecode-hadolint.golang114.Dockerfile"
+      options: {--build-arg: OUTDIR=/.reports}
+      reports:
+        - {from: hadolint-task, path: "/.reports/hadolint.sarif"}
+      thresholds: {num-issues: 34}
 
-    # - name: hadolint_alp_go114
-    #   type: docker-build
-    #   dockerfile: "inspecode-hadolint.alpine312+go115.Dockerfile"
-    #   options: {--build-arg: OUTDIR=/.reports}
-    #   reports:
-    #     - {from: hadolint-task, path: "/.reports/hadolint.sarif"}
-    #   thresholds: {num-issues: 34}
+    - name: hadolint_go115
+      type: docker-build
+      dockerfile: "inspecode-hadolint.golang115.Dockerfile"
+      options: {--build-arg: OUTDIR=/.reports}
+      reports:
+        - {from: hadolint-task, path: "/.reports/hadolint.sarif"}
+      thresholds: {num-issues: 34}
