@@ -1,4 +1,4 @@
-module github.com/tetrafolium/mattermost-server/v5
+module github.com/trigonella/mattermost-server/v5
 
 go 1.14
 

@@ -9,7 +9,7 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/tetrafolium/mattermost-server/v5/utils/jsonutils"
+	"github.com/trigonella/mattermost-server/v5/utils/jsonutils"
 )
 
 const (

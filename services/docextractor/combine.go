@@ -6,7 +6,7 @@ package docextractor
 import (
 	"io"
 
-	"github.com/tetrafolium/mattermost-server/v5/mlog"
+	"github.com/trigonella/mattermost-server/v5/mlog"
 )
 
 type combineExtractor struct {

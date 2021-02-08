@@ -372,8 +372,8 @@ import (
 	"net/http"
 	timePkg "time"
 
-	"github.com/tetrafolium/mattermost-server/v5/einterfaces"
-	"github.com/tetrafolium/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/einterfaces"
+	"github.com/trigonella/mattermost-server/v5/model"
 )
 
 type apiTimerLayer struct {
@@ -414,8 +414,8 @@ import (
 	"net/http"
 	timePkg "time"
 
-	"github.com/tetrafolium/mattermost-server/v5/einterfaces"
-	"github.com/tetrafolium/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/einterfaces"
+	"github.com/trigonella/mattermost-server/v5/model"
 )
 
 type hooksTimerLayer struct {
@@ -562,7 +562,7 @@ func generatePluginTimerLayer(info *PluginInterfaceInfo) {
 }
 
 func getPluginPackageDir() string {
-	dirs, err := goList("github.com/tetrafolium/mattermost-server/v5/plugin")
+	dirs, err := goList("github.com/trigonella/mattermost-server/v5/plugin")
 	if err != nil {
 		panic(err)
 	} else if len(dirs) != 1 {

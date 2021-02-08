@@ -12,14 +12,14 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/tetrafolium/mattermost-server/v5/mlog"
-	"github.com/tetrafolium/mattermost-server/v5/model"
-	"github.com/tetrafolium/mattermost-server/v5/services/searchengine"
-	"github.com/tetrafolium/mattermost-server/v5/store"
-	"github.com/tetrafolium/mattermost-server/v5/store/searchlayer"
-	"github.com/tetrafolium/mattermost-server/v5/store/sqlstore"
-	"github.com/tetrafolium/mattermost-server/v5/store/storetest"
-	"github.com/tetrafolium/mattermost-server/v5/utils"
+	"github.com/trigonella/mattermost-server/v5/mlog"
+	"github.com/trigonella/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/services/searchengine"
+	"github.com/trigonella/mattermost-server/v5/store"
+	"github.com/trigonella/mattermost-server/v5/store/searchlayer"
+	"github.com/trigonella/mattermost-server/v5/store/sqlstore"
+	"github.com/trigonella/mattermost-server/v5/store/storetest"
+	"github.com/trigonella/mattermost-server/v5/utils"
 	"github.com/pkg/errors"
 )
 

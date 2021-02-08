@@ -19,7 +19,7 @@ import (
 	"time"
 
 	"github.com/mattermost/ldap"
-	"github.com/tetrafolium/mattermost-server/v5/mlog"
+	"github.com/trigonella/mattermost-server/v5/mlog"
 )
 
 const (

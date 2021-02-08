@@ -6,8 +6,8 @@ package localcachelayer
 import (
 	"testing"
 
-	"github.com/tetrafolium/mattermost-server/v5/store/storetest"
-	"github.com/tetrafolium/mattermost-server/v5/store/storetest/mocks"
+	"github.com/trigonella/mattermost-server/v5/store/storetest"
+	"github.com/trigonella/mattermost-server/v5/store/storetest/mocks"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

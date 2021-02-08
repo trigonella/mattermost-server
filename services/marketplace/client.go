@@ -11,8 +11,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/tetrafolium/mattermost-server/v5/model"
-	"github.com/tetrafolium/mattermost-server/v5/services/httpservice"
+	"github.com/trigonella/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/services/httpservice"
 	"github.com/pkg/errors"
 )
 

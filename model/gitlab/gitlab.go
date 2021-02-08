@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/tetrafolium/mattermost-server/v5/einterfaces"
-	"github.com/tetrafolium/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/einterfaces"
+	"github.com/trigonella/mattermost-server/v5/model"
 )
 
 type GitLabProvider struct {

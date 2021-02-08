@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tetrafolium/mattermost-server/v5/mlog"
-	"github.com/tetrafolium/mattermost-server/v5/model"
-	"github.com/tetrafolium/mattermost-server/v5/utils"
+	"github.com/trigonella/mattermost-server/v5/mlog"
+	"github.com/trigonella/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/utils"
 	"github.com/stretchr/testify/require"
 )
 
@@ -35,7 +35,7 @@ func testPluginHealthCheckSuccess(t *testing.T) {
 		package main
 
 		import (
-			"github.com/tetrafolium/mattermost-server/v5/plugin"
+			"github.com/trigonella/mattermost-server/v5/plugin"
 		)
 
 		type MyPlugin struct {
@@ -77,8 +77,8 @@ func testPluginHealthCheckPanic(t *testing.T) {
 		package main
 
 		import (
-			"github.com/tetrafolium/mattermost-server/v5/model"
-			"github.com/tetrafolium/mattermost-server/v5/plugin"
+			"github.com/trigonella/mattermost-server/v5/model"
+			"github.com/trigonella/mattermost-server/v5/plugin"
 		)
 
 		type MyPlugin struct {

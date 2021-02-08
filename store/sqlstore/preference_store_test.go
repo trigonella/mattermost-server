@@ -6,9 +6,9 @@ package sqlstore
 import (
 	"testing"
 
-	"github.com/tetrafolium/mattermost-server/v5/model"
-	"github.com/tetrafolium/mattermost-server/v5/store"
-	"github.com/tetrafolium/mattermost-server/v5/store/storetest"
+	"github.com/trigonella/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/store"
+	"github.com/trigonella/mattermost-server/v5/store/storetest"
 
 	"github.com/stretchr/testify/require"
 )

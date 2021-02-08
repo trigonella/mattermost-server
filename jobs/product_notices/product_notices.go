@@ -4,8 +4,8 @@
 package product_notices
 
 import (
-	"github.com/tetrafolium/mattermost-server/v5/app"
-	tjobs "github.com/tetrafolium/mattermost-server/v5/jobs/interfaces"
+	"github.com/trigonella/mattermost-server/v5/app"
+	tjobs "github.com/trigonella/mattermost-server/v5/jobs/interfaces"
 )
 
 type ProductNoticesJobInterfaceImpl struct {

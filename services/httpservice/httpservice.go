@@ -10,7 +10,7 @@ import (
 	"time"
 	"unicode"
 
-	"github.com/tetrafolium/mattermost-server/v5/services/configservice"
+	"github.com/trigonella/mattermost-server/v5/services/configservice"
 )
 
 // HTTPService wraps the functionality for making http requests to provide some improvements to the default client

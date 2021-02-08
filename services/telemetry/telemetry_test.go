@@ -18,14 +18,14 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/tetrafolium/mattermost-server/v5/mlog"
-	"github.com/tetrafolium/mattermost-server/v5/model"
-	"github.com/tetrafolium/mattermost-server/v5/plugin"
-	"github.com/tetrafolium/mattermost-server/v5/plugin/plugintest"
-	"github.com/tetrafolium/mattermost-server/v5/services/httpservice"
-	"github.com/tetrafolium/mattermost-server/v5/services/searchengine"
-	"github.com/tetrafolium/mattermost-server/v5/services/telemetry/mocks"
-	storeMocks "github.com/tetrafolium/mattermost-server/v5/store/storetest/mocks"
+	"github.com/trigonella/mattermost-server/v5/mlog"
+	"github.com/trigonella/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/plugin"
+	"github.com/trigonella/mattermost-server/v5/plugin/plugintest"
+	"github.com/trigonella/mattermost-server/v5/services/httpservice"
+	"github.com/trigonella/mattermost-server/v5/services/searchengine"
+	"github.com/trigonella/mattermost-server/v5/services/telemetry/mocks"
+	storeMocks "github.com/trigonella/mattermost-server/v5/store/storetest/mocks"
 )
 
 type FakeConfigService struct {

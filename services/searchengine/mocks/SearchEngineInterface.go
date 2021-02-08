@@ -5,7 +5,7 @@
 package mocks
 
 import (
-	model "github.com/tetrafolium/mattermost-server/v5/model"
+	model "github.com/trigonella/mattermost-server/v5/model"
 	mock "github.com/stretchr/testify/mock"
 
 	time "time"

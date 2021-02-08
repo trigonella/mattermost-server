@@ -8,8 +8,8 @@ import (
 	"go/ast"
 	"go/token"
 
-	"github.com/tetrafolium/mattermost-server/v5/plugin/checker/internal/asthelpers"
-	"github.com/tetrafolium/mattermost-server/v5/plugin/checker/internal/version"
+	"github.com/trigonella/mattermost-server/v5/plugin/checker/internal/asthelpers"
+	"github.com/trigonella/mattermost-server/v5/plugin/checker/internal/version"
 )
 
 func checkAPIVersionComments(pkgPath string) (result, error) {

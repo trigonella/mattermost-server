@@ -6,7 +6,7 @@ package bleveengine
 import (
 	"fmt"
 
-	"github.com/tetrafolium/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/model"
 )
 
 func createPost(userId string, channelId string, message string) *model.Post {

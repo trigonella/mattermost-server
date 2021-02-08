@@ -6,7 +6,7 @@ package searchengine
 import (
 	"time"
 
-	"github.com/tetrafolium/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/model"
 )
 
 type SearchEngineInterface interface {

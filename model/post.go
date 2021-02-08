@@ -14,7 +14,7 @@ import (
 	"sync"
 	"unicode/utf8"
 
-	"github.com/tetrafolium/mattermost-server/v5/utils/markdown"
+	"github.com/trigonella/mattermost-server/v5/utils/markdown"
 )
 
 const (

@@ -12,12 +12,12 @@ import (
 	"runtime"
 	"strconv"
 
-	"github.com/tetrafolium/mattermost-server/v5/app"
-	"github.com/tetrafolium/mattermost-server/v5/jobs"
-	tjobs "github.com/tetrafolium/mattermost-server/v5/jobs/interfaces"
-	"github.com/tetrafolium/mattermost-server/v5/mlog"
-	"github.com/tetrafolium/mattermost-server/v5/model"
-	"github.com/tetrafolium/mattermost-server/v5/utils"
+	"github.com/trigonella/mattermost-server/v5/app"
+	"github.com/trigonella/mattermost-server/v5/jobs"
+	tjobs "github.com/trigonella/mattermost-server/v5/jobs/interfaces"
+	"github.com/trigonella/mattermost-server/v5/mlog"
+	"github.com/trigonella/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/utils"
 )
 
 func init() {

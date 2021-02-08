@@ -6,8 +6,8 @@ package sqlstore
 import (
 	"testing"
 
-	"github.com/tetrafolium/mattermost-server/v5/store/searchtest"
-	"github.com/tetrafolium/mattermost-server/v5/store/storetest"
+	"github.com/trigonella/mattermost-server/v5/store/searchtest"
+	"github.com/trigonella/mattermost-server/v5/store/storetest"
 )
 
 func TestUserStore(t *testing.T) {

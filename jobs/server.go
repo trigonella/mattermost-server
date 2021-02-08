@@ -4,11 +4,11 @@
 package jobs
 
 import (
-	ejobs "github.com/tetrafolium/mattermost-server/v5/einterfaces/jobs"
-	tjobs "github.com/tetrafolium/mattermost-server/v5/jobs/interfaces"
-	"github.com/tetrafolium/mattermost-server/v5/model"
-	"github.com/tetrafolium/mattermost-server/v5/services/configservice"
-	"github.com/tetrafolium/mattermost-server/v5/store"
+	ejobs "github.com/trigonella/mattermost-server/v5/einterfaces/jobs"
+	tjobs "github.com/trigonella/mattermost-server/v5/jobs/interfaces"
+	"github.com/trigonella/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/services/configservice"
+	"github.com/trigonella/mattermost-server/v5/store"
 )
 
 type JobServer struct {

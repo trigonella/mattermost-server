@@ -16,7 +16,7 @@ import (
 	"strings"
 
 	"github.com/disintegration/imaging"
-	"github.com/tetrafolium/mattermost-server/v5/mlog"
+	"github.com/trigonella/mattermost-server/v5/mlog"
 )
 
 const (
