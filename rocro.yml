@@ -143,9 +143,9 @@ inspecode:
     staticcheck:
       thresholds: {num-issues: 999}   # (found no input files) ... codelift#2161
 
-    unused:
-      ignore:
-        - "**/*_test.go"
-      machine: {cpu: 1.5}   # avoid Timed-Out
-      options: [--single-occurrence, --all-likelihoods]
-      thresholds: {num-issues: 112}
+        #    unused:
+        #      ignore:
+        #        - "**/*_test.go"
+        #      machine: {cpu: 1.5}   # avoid Timed-Out
+        #      options: [--single-occurrence, --all-likelihoods]
+        #      thresholds: {num-issues: 112}
