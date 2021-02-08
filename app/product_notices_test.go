@@ -12,8 +12,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tetrafolium/mattermost-server/v5/model"
-	"github.com/tetrafolium/mattermost-server/v5/store/storetest/mocks"
+	"github.com/trigonella/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/store/storetest/mocks"
 	"github.com/stretchr/testify/require"
 )
 

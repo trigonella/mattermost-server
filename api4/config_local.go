@@ -7,10 +7,10 @@ import (
 	"net/http"
 	"reflect"
 
-	"github.com/tetrafolium/mattermost-server/v5/audit"
-	"github.com/tetrafolium/mattermost-server/v5/config"
-	"github.com/tetrafolium/mattermost-server/v5/model"
-	"github.com/tetrafolium/mattermost-server/v5/utils"
+	"github.com/trigonella/mattermost-server/v5/audit"
+	"github.com/trigonella/mattermost-server/v5/config"
+	"github.com/trigonella/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/utils"
 )
 
 func (api *API) InitConfigLocal() {

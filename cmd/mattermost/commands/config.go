@@ -14,10 +14,10 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 
-	"github.com/tetrafolium/mattermost-server/v5/config"
-	"github.com/tetrafolium/mattermost-server/v5/mlog"
-	"github.com/tetrafolium/mattermost-server/v5/model"
-	"github.com/tetrafolium/mattermost-server/v5/utils"
+	"github.com/trigonella/mattermost-server/v5/config"
+	"github.com/trigonella/mattermost-server/v5/mlog"
+	"github.com/trigonella/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/utils"
 )
 
 const noSettingsNamed = "unable to find a setting named: %s"

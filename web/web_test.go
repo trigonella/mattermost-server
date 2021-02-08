@@ -13,16 +13,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tetrafolium/mattermost-server/v5/app"
-	"github.com/tetrafolium/mattermost-server/v5/config"
-	"github.com/tetrafolium/mattermost-server/v5/mlog"
-	"github.com/tetrafolium/mattermost-server/v5/model"
-	"github.com/tetrafolium/mattermost-server/v5/plugin"
-	"github.com/tetrafolium/mattermost-server/v5/store"
-	"github.com/tetrafolium/mattermost-server/v5/store/localcachelayer"
-	"github.com/tetrafolium/mattermost-server/v5/store/storetest/mocks"
-	"github.com/tetrafolium/mattermost-server/v5/testlib"
-	"github.com/tetrafolium/mattermost-server/v5/utils"
+	"github.com/trigonella/mattermost-server/v5/app"
+	"github.com/trigonella/mattermost-server/v5/config"
+	"github.com/trigonella/mattermost-server/v5/mlog"
+	"github.com/trigonella/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/plugin"
+	"github.com/trigonella/mattermost-server/v5/store"
+	"github.com/trigonella/mattermost-server/v5/store/localcachelayer"
+	"github.com/trigonella/mattermost-server/v5/store/storetest/mocks"
+	"github.com/trigonella/mattermost-server/v5/testlib"
+	"github.com/trigonella/mattermost-server/v5/utils"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
@@ -185,7 +185,7 @@ func TestStaticFilesRequest(t *testing.T) {
 	package main
 
 	import (
-		"github.com/tetrafolium/mattermost-server/v5/plugin"
+		"github.com/trigonella/mattermost-server/v5/plugin"
 	)
 
 	type MyPlugin struct {
@@ -272,7 +272,7 @@ func TestPublicFilesRequest(t *testing.T) {
 	package main
 
 	import (
-		"github.com/tetrafolium/mattermost-server/v5/plugin"
+		"github.com/trigonella/mattermost-server/v5/plugin"
 	)
 
 	type MyPlugin struct {

@@ -6,7 +6,7 @@ package einterfaces
 import (
 	"io"
 
-	"github.com/tetrafolium/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/model"
 )
 
 type OauthProvider interface {

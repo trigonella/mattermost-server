@@ -30,12 +30,12 @@ import (
 	_ "golang.org/x/image/bmp"
 	_ "golang.org/x/image/tiff"
 
-	"github.com/tetrafolium/mattermost-server/v5/mlog"
-	"github.com/tetrafolium/mattermost-server/v5/model"
-	"github.com/tetrafolium/mattermost-server/v5/plugin"
-	"github.com/tetrafolium/mattermost-server/v5/services/filesstore"
-	"github.com/tetrafolium/mattermost-server/v5/store"
-	"github.com/tetrafolium/mattermost-server/v5/utils"
+	"github.com/trigonella/mattermost-server/v5/mlog"
+	"github.com/trigonella/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/plugin"
+	"github.com/trigonella/mattermost-server/v5/services/filesstore"
+	"github.com/trigonella/mattermost-server/v5/store"
+	"github.com/trigonella/mattermost-server/v5/utils"
 )
 
 const (

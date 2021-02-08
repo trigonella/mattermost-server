@@ -12,8 +12,8 @@ import (
 	"github.com/jmoiron/sqlx"
 	"github.com/pkg/errors"
 
-	"github.com/tetrafolium/mattermost-server/v5/mlog"
-	"github.com/tetrafolium/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/mlog"
+	"github.com/trigonella/mattermost-server/v5/model"
 
 	// Load the MySQL driver
 	_ "github.com/go-sql-driver/mysql"

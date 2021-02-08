@@ -6,16 +6,16 @@ package main
 import (
 	"os"
 
-	"github.com/tetrafolium/mattermost-server/v5/cmd/mattermost/commands"
+	"github.com/trigonella/mattermost-server/v5/cmd/mattermost/commands"
 
 	// Import and register app layer slash commands
-	_ "github.com/tetrafolium/mattermost-server/v5/app/slashcommands"
+	_ "github.com/trigonella/mattermost-server/v5/app/slashcommands"
 
 	// Plugins
-	_ "github.com/tetrafolium/mattermost-server/v5/model/gitlab"
+	_ "github.com/trigonella/mattermost-server/v5/model/gitlab"
 
 	// Enterprise Imports
-	_ "github.com/tetrafolium/mattermost-server/v5/imports"
+	_ "github.com/trigonella/mattermost-server/v5/imports"
 
 	// Enterprise Deps
 	_ "github.com/gorilla/handlers"

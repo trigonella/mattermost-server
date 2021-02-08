@@ -9,7 +9,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/tetrafolium/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/model"
 	"github.com/pkg/errors"
 )
 

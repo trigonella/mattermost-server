@@ -10,8 +10,8 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/tetrafolium/mattermost-server/v5/config"
-	"github.com/tetrafolium/mattermost-server/v5/jobs"
+	"github.com/trigonella/mattermost-server/v5/config"
+	"github.com/trigonella/mattermost-server/v5/jobs"
 	"github.com/stretchr/testify/require"
 )
 

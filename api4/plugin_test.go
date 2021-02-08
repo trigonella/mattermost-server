@@ -18,11 +18,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tetrafolium/mattermost-server/v5/model"
-	"github.com/tetrafolium/mattermost-server/v5/plugin"
-	"github.com/tetrafolium/mattermost-server/v5/testlib"
-	"github.com/tetrafolium/mattermost-server/v5/utils"
-	"github.com/tetrafolium/mattermost-server/v5/utils/fileutils"
+	"github.com/trigonella/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/plugin"
+	"github.com/trigonella/mattermost-server/v5/testlib"
+	"github.com/trigonella/mattermost-server/v5/utils"
+	"github.com/trigonella/mattermost-server/v5/utils/fileutils"
 
 	svg "github.com/h2non/go-is-svg"
 	"github.com/stretchr/testify/assert"

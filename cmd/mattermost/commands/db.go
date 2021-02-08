@@ -6,8 +6,8 @@ package commands
 import (
 	"fmt"
 
-	"github.com/tetrafolium/mattermost-server/v5/config"
-	"github.com/tetrafolium/mattermost-server/v5/store/sqlstore"
+	"github.com/trigonella/mattermost-server/v5/config"
+	"github.com/trigonella/mattermost-server/v5/store/sqlstore"
 
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"

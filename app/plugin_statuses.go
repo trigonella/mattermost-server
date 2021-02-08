@@ -6,7 +6,7 @@ package app
 import (
 	"net/http"
 
-	"github.com/tetrafolium/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/model"
 )
 
 // GetPluginStatus returns the status for a plugin installed on this server.

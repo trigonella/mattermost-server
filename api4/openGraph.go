@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/tetrafolium/mattermost-server/v5/model"
-	"github.com/tetrafolium/mattermost-server/v5/services/cache"
+	"github.com/trigonella/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/services/cache"
 )
 
 const OPEN_GRAPH_METADATA_CACHE_SIZE = 10000

@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/tetrafolium/mattermost-server/v5/audit"
-	"github.com/tetrafolium/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/audit"
+	"github.com/trigonella/mattermost-server/v5/model"
 )
 
 func (api *API) InitGroup() {

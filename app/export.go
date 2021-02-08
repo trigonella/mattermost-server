@@ -11,10 +11,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/tetrafolium/mattermost-server/v5/store"
+	"github.com/trigonella/mattermost-server/v5/store"
 
-	"github.com/tetrafolium/mattermost-server/v5/mlog"
-	"github.com/tetrafolium/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/mlog"
+	"github.com/trigonella/mattermost-server/v5/model"
 	"github.com/pkg/errors"
 )
 

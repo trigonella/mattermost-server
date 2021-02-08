@@ -9,10 +9,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/tetrafolium/mattermost-server/v5/app"
-	"github.com/tetrafolium/mattermost-server/v5/model"
-	"github.com/tetrafolium/mattermost-server/v5/utils"
-	"github.com/tetrafolium/mattermost-server/v5/utils/fileutils"
+	"github.com/trigonella/mattermost-server/v5/app"
+	"github.com/trigonella/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/utils"
+	"github.com/trigonella/mattermost-server/v5/utils/fileutils"
 )
 
 type AutoPostCreator struct {

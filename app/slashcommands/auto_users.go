@@ -7,10 +7,10 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/tetrafolium/mattermost-server/v5/app"
-	"github.com/tetrafolium/mattermost-server/v5/model"
-	"github.com/tetrafolium/mattermost-server/v5/store"
-	"github.com/tetrafolium/mattermost-server/v5/utils"
+	"github.com/trigonella/mattermost-server/v5/app"
+	"github.com/trigonella/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/store"
+	"github.com/trigonella/mattermost-server/v5/utils"
 )
 
 type AutoUserCreator struct {

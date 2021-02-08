@@ -3,7 +3,7 @@
 
 package jobs
 
-import "github.com/tetrafolium/mattermost-server/v5/model"
+import "github.com/trigonella/mattermost-server/v5/model"
 
 type CloudJobInterface interface {
 	MakeWorker() model.Worker

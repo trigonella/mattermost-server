@@ -3,7 +3,7 @@
 
 package einterfaces
 
-import "github.com/tetrafolium/mattermost-server/v5/model"
+import "github.com/trigonella/mattermost-server/v5/model"
 
 type AccountMigrationInterface interface {
 	MigrateToLdap(fromAuthService string, forignUserFieldNameToMatch string, force bool, dryRun bool) *model.AppError

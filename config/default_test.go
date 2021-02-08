@@ -9,9 +9,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/tetrafolium/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/model"
 
-	"github.com/tetrafolium/mattermost-server/v5/config/config_generator/generator"
+	"github.com/trigonella/mattermost-server/v5/config/config_generator/generator"
 	"github.com/stretchr/testify/require"
 )
 

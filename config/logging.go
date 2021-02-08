@@ -8,7 +8,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/tetrafolium/mattermost-server/v5/mlog"
+	"github.com/trigonella/mattermost-server/v5/mlog"
 )
 
 type LogSrcListener func(old, new mlog.LogTargetCfg)

@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tetrafolium/mattermost-server/v5/einterfaces"
-	"github.com/tetrafolium/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/einterfaces"
+	"github.com/trigonella/mattermost-server/v5/model"
 	"github.com/stretchr/testify/require"
 )
 

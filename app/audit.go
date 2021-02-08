@@ -10,11 +10,11 @@ import (
 	"os/user"
 
 	"github.com/hashicorp/go-multierror"
-	"github.com/tetrafolium/mattermost-server/v5/audit"
-	"github.com/tetrafolium/mattermost-server/v5/config"
-	"github.com/tetrafolium/mattermost-server/v5/mlog"
-	"github.com/tetrafolium/mattermost-server/v5/model"
-	"github.com/tetrafolium/mattermost-server/v5/store"
+	"github.com/trigonella/mattermost-server/v5/audit"
+	"github.com/trigonella/mattermost-server/v5/config"
+	"github.com/trigonella/mattermost-server/v5/mlog"
+	"github.com/trigonella/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/store"
 )
 
 const (

@@ -20,12 +20,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/tetrafolium/mattermost-server/v5/mlog"
-	"github.com/tetrafolium/mattermost-server/v5/model"
-	"github.com/tetrafolium/mattermost-server/v5/plugin"
-	"github.com/tetrafolium/mattermost-server/v5/testlib"
-	"github.com/tetrafolium/mattermost-server/v5/utils"
-	"github.com/tetrafolium/mattermost-server/v5/utils/fileutils"
+	"github.com/trigonella/mattermost-server/v5/mlog"
+	"github.com/trigonella/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/plugin"
+	"github.com/trigonella/mattermost-server/v5/testlib"
+	"github.com/trigonella/mattermost-server/v5/utils"
+	"github.com/trigonella/mattermost-server/v5/utils/fileutils"
 )
 
 func getHashedKey(key string) string {
@@ -697,8 +697,8 @@ func TestPluginPanicLogs(t *testing.T) {
 		package main
 
 		import (
-			"github.com/tetrafolium/mattermost-server/v5/plugin"
-			"github.com/tetrafolium/mattermost-server/v5/model"
+			"github.com/trigonella/mattermost-server/v5/plugin"
+			"github.com/trigonella/mattermost-server/v5/model"
 		)
 
 		type MyPlugin struct {

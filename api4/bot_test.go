@@ -12,9 +12,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tetrafolium/mattermost-server/v5/model"
-	"github.com/tetrafolium/mattermost-server/v5/utils/fileutils"
-	"github.com/tetrafolium/mattermost-server/v5/utils/testutils"
+	"github.com/trigonella/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/utils/fileutils"
+	"github.com/trigonella/mattermost-server/v5/utils/testutils"
 	"github.com/stretchr/testify/require"
 )
 

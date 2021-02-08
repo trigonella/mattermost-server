@@ -6,7 +6,7 @@ package api4
 import (
 	"net/http"
 
-	"github.com/tetrafolium/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/model"
 )
 
 func (api *API) InitReaction() {

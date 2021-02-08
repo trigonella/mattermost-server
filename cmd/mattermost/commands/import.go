@@ -9,7 +9,7 @@ import (
 
 	"fmt"
 
-	"github.com/tetrafolium/mattermost-server/v5/audit"
+	"github.com/trigonella/mattermost-server/v5/audit"
 	"github.com/spf13/cobra"
 )
 

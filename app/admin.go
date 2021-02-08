@@ -15,10 +15,10 @@ import (
 
 	"net/http"
 
-	"github.com/tetrafolium/mattermost-server/v5/mlog"
-	"github.com/tetrafolium/mattermost-server/v5/model"
-	"github.com/tetrafolium/mattermost-server/v5/services/mailservice"
-	"github.com/tetrafolium/mattermost-server/v5/utils"
+	"github.com/trigonella/mattermost-server/v5/mlog"
+	"github.com/trigonella/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/services/mailservice"
+	"github.com/trigonella/mattermost-server/v5/utils"
 )
 
 func (s *Server) GetLogs(page, perPage int) ([]string, *model.AppError) {

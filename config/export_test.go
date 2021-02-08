@@ -5,7 +5,7 @@ package config
 
 import (
 	"github.com/jmoiron/sqlx"
-	"github.com/tetrafolium/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/model"
 )
 
 // MarshalConfig exposes the internal marshalConfig to tests only.

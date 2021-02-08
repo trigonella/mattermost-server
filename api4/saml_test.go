@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/tetrafolium/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/model"
 
 	"github.com/stretchr/testify/require"
 )

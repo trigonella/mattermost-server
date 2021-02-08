@@ -6,7 +6,7 @@ package config
 import (
 	"encoding/json"
 
-	"github.com/tetrafolium/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/model"
 )
 
 // marshalConfig converts the given configuration into JSON bytes for persistence.

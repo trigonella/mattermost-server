@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/tetrafolium/mattermost-server/v5/config/config_generator/generator"
+	"github.com/trigonella/mattermost-server/v5/config/config_generator/generator"
 )
 
 func main() {

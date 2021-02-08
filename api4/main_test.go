@@ -6,8 +6,8 @@ package api4
 import (
 	"testing"
 
-	"github.com/tetrafolium/mattermost-server/v5/mlog"
-	"github.com/tetrafolium/mattermost-server/v5/testlib"
+	"github.com/trigonella/mattermost-server/v5/mlog"
+	"github.com/trigonella/mattermost-server/v5/testlib"
 )
 
 func TestMain(m *testing.M) {

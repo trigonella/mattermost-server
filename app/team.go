@@ -17,11 +17,11 @@ import (
 	"strings"
 
 	"github.com/disintegration/imaging"
-	"github.com/tetrafolium/mattermost-server/v5/mlog"
-	"github.com/tetrafolium/mattermost-server/v5/model"
-	"github.com/tetrafolium/mattermost-server/v5/plugin"
-	"github.com/tetrafolium/mattermost-server/v5/store"
-	"github.com/tetrafolium/mattermost-server/v5/utils"
+	"github.com/trigonella/mattermost-server/v5/mlog"
+	"github.com/trigonella/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/plugin"
+	"github.com/trigonella/mattermost-server/v5/store"
+	"github.com/trigonella/mattermost-server/v5/utils"
 )
 
 func (a *App) CreateTeam(team *model.Team) (*model.Team, *model.AppError) {

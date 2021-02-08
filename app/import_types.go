@@ -3,7 +3,7 @@
 
 package app
 
-import "github.com/tetrafolium/mattermost-server/v5/model"
+import "github.com/trigonella/mattermost-server/v5/model"
 
 // Import Data Models
 

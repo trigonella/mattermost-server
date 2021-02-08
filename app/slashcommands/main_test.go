@@ -6,8 +6,8 @@ package slashcommands
 import (
 	"testing"
 
-	"github.com/tetrafolium/mattermost-server/v5/mlog"
-	"github.com/tetrafolium/mattermost-server/v5/testlib"
+	"github.com/trigonella/mattermost-server/v5/mlog"
+	"github.com/trigonella/mattermost-server/v5/testlib"
 )
 
 var mainHelper *testlib.MainHelper

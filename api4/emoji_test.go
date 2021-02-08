@@ -11,14 +11,14 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/tetrafolium/mattermost-server/v5/utils/fileutils"
+	"github.com/trigonella/mattermost-server/v5/utils/fileutils"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/tetrafolium/mattermost-server/v5/app"
-	"github.com/tetrafolium/mattermost-server/v5/model"
-	"github.com/tetrafolium/mattermost-server/v5/utils"
+	"github.com/trigonella/mattermost-server/v5/app"
+	"github.com/trigonella/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/utils"
 )
 
 func TestCreateEmoji(t *testing.T) {

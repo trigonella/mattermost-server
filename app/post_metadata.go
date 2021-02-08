@@ -15,11 +15,11 @@ import (
 	"time"
 
 	"github.com/dyatlov/go-opengraph/opengraph"
-	"github.com/tetrafolium/mattermost-server/v5/mlog"
-	"github.com/tetrafolium/mattermost-server/v5/model"
-	"github.com/tetrafolium/mattermost-server/v5/services/cache"
-	"github.com/tetrafolium/mattermost-server/v5/utils/imgutils"
-	"github.com/tetrafolium/mattermost-server/v5/utils/markdown"
+	"github.com/trigonella/mattermost-server/v5/mlog"
+	"github.com/trigonella/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/services/cache"
+	"github.com/trigonella/mattermost-server/v5/utils/imgutils"
+	"github.com/trigonella/mattermost-server/v5/utils/markdown"
 )
 
 type linkMetadataCache struct {

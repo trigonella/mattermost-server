@@ -8,9 +8,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/tetrafolium/mattermost-server/v5/api4"
-	"github.com/tetrafolium/mattermost-server/v5/mlog"
-	"github.com/tetrafolium/mattermost-server/v5/testlib"
+	"github.com/trigonella/mattermost-server/v5/api4"
+	"github.com/trigonella/mattermost-server/v5/mlog"
+	"github.com/trigonella/mattermost-server/v5/testlib"
 )
 
 func TestMain(m *testing.M) {

@@ -7,8 +7,8 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/tetrafolium/mattermost-server/v5/model"
-	"github.com/tetrafolium/mattermost-server/v5/store"
+	"github.com/trigonella/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/store"
 )
 
 func (a *App) GetScheme(id string) (*model.Scheme, *model.AppError) {

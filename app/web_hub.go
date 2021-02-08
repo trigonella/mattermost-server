@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"sync/atomic"
 
-	"github.com/tetrafolium/mattermost-server/v5/mlog"
-	"github.com/tetrafolium/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/mlog"
+	"github.com/trigonella/mattermost-server/v5/model"
 )
 
 const (
@@ -40,7 +40,7 @@ type webConnSessionMessage struct {
 // user connections.
 type Hub struct {
 	// connectionCount should be kept first.
-	// See https://github.com/tetrafolium/mattermost-server/pull/7281
+	// See https://github.com/trigonella/mattermost-server/pull/7281
 	connectionCount int64
 	app             *App
 	connectionIndex int

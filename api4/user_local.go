@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/tetrafolium/mattermost-server/v5/audit"
-	"github.com/tetrafolium/mattermost-server/v5/model"
-	"github.com/tetrafolium/mattermost-server/v5/store"
+	"github.com/trigonella/mattermost-server/v5/audit"
+	"github.com/trigonella/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/store"
 )
 
 func (api *API) InitUserLocal() {

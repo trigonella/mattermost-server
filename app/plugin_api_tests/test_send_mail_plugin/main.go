@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/tetrafolium/mattermost-server/v5/app/plugin_api_tests"
-	"github.com/tetrafolium/mattermost-server/v5/model"
-	"github.com/tetrafolium/mattermost-server/v5/plugin"
-	"github.com/tetrafolium/mattermost-server/v5/services/mailservice"
+	"github.com/trigonella/mattermost-server/v5/app/plugin_api_tests"
+	"github.com/trigonella/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/plugin"
+	"github.com/trigonella/mattermost-server/v5/services/mailservice"
 )
 
 type MyPlugin struct {

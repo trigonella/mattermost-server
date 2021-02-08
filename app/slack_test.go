@@ -6,7 +6,7 @@ package app
 import (
 	"testing"
 
-	"github.com/tetrafolium/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/model"
 )
 
 func TestProcessSlackText(t *testing.T) {

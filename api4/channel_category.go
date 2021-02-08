@@ -6,9 +6,9 @@ package api4
 import (
 	"net/http"
 
-	"github.com/tetrafolium/mattermost-server/v5/audit"
-	"github.com/tetrafolium/mattermost-server/v5/mlog"
-	"github.com/tetrafolium/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/audit"
+	"github.com/trigonella/mattermost-server/v5/mlog"
+	"github.com/trigonella/mattermost-server/v5/model"
 )
 
 func getCategoriesForTeamForUser(c *Context, w http.ResponseWriter, r *http.Request) {

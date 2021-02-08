@@ -11,9 +11,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/tetrafolium/mattermost-server/v5/model"
-	"github.com/tetrafolium/mattermost-server/v5/services/slackimport"
-	"github.com/tetrafolium/mattermost-server/v5/store"
+	"github.com/trigonella/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/services/slackimport"
+	"github.com/trigonella/mattermost-server/v5/store"
 )
 
 func (a *App) SlackImport(fileData multipart.File, fileSize int64, teamID string) (*model.AppError, *bytes.Buffer) {

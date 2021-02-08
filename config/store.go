@@ -8,8 +8,8 @@ import (
 	"encoding/json"
 	"sync"
 
-	"github.com/tetrafolium/mattermost-server/v5/model"
-	"github.com/tetrafolium/mattermost-server/v5/utils/jsonutils"
+	"github.com/trigonella/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/utils/jsonutils"
 	"github.com/pkg/errors"
 )
 

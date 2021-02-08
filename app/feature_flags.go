@@ -6,8 +6,8 @@ package app
 import (
 	"time"
 
-	"github.com/tetrafolium/mattermost-server/v5/config"
-	"github.com/tetrafolium/mattermost-server/v5/mlog"
+	"github.com/trigonella/mattermost-server/v5/config"
+	"github.com/trigonella/mattermost-server/v5/mlog"
 )
 
 // setupFeatureFlags called on startup and when the cluster leader changes.

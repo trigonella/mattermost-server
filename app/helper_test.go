@@ -14,15 +14,15 @@ import (
 
 	"testing"
 
-	"github.com/tetrafolium/mattermost-server/v5/config"
-	"github.com/tetrafolium/mattermost-server/v5/mlog"
-	"github.com/tetrafolium/mattermost-server/v5/model"
-	"github.com/tetrafolium/mattermost-server/v5/store"
-	"github.com/tetrafolium/mattermost-server/v5/store/localcachelayer"
-	"github.com/tetrafolium/mattermost-server/v5/store/sqlstore"
-	"github.com/tetrafolium/mattermost-server/v5/store/storetest/mocks"
-	"github.com/tetrafolium/mattermost-server/v5/testlib"
-	"github.com/tetrafolium/mattermost-server/v5/utils"
+	"github.com/trigonella/mattermost-server/v5/config"
+	"github.com/trigonella/mattermost-server/v5/mlog"
+	"github.com/trigonella/mattermost-server/v5/model"
+	"github.com/trigonella/mattermost-server/v5/store"
+	"github.com/trigonella/mattermost-server/v5/store/localcachelayer"
+	"github.com/trigonella/mattermost-server/v5/store/sqlstore"
+	"github.com/trigonella/mattermost-server/v5/store/storetest/mocks"
+	"github.com/trigonella/mattermost-server/v5/testlib"
+	"github.com/trigonella/mattermost-server/v5/utils"
 	"github.com/stretchr/testify/require"
 )
 
